@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21257e64-f4e8-423a-99a8-0d067d73be01" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CurrencyConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CurrencyConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CurrencyConverterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1770043800474</updated>
       <workItem from="1770043801617" duration="476000" />
-      <workItem from="1770044285775" duration="447000" />
+      <workItem from="1770044285775" duration="545000" />
     </task>
     <servers />
   </component>
