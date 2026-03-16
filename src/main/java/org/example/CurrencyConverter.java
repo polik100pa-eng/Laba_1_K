@@ -1,7 +1,8 @@
 package org.example;
 
 public class CurrencyConverter {
-
+// amount - сумма в исх. валюте
+    // rate - курс конвертации
     public static double convert(double amount, double rate) {
         if (amount <= 0) {
             throw new IllegalArgumentException("Amount must be greater than zero");

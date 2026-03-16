@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21257e64-f4e8-423a-99a8-0d067d73be01" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/CurrencyConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CurrencyConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExchangeRateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoggerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CurrencyConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -52,7 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1770043800474</updated>
       <workItem from="1770043801617" duration="476000" />
-      <workItem from="1770044285775" duration="545000" />
+      <workItem from="1770044285775" duration="5099000" />
+      <workItem from="1773654829358" duration="538000" />
     </task>
     <servers />
   </component>
