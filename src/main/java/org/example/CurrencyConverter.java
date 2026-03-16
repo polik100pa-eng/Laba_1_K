@@ -1,19 +1,37 @@
 package org.example;
 
 public class CurrencyConverter {
-// amount - сумма в исх. валюте
-    // rate - курс конвертации
-    public static double convert(double amount, double rate) {
+
+    private final ExchangeRateService exchangeRateService;
+    private final LoggerService loggerService;
+
+    public CurrencyConverter(ExchangeRateService exchangeRateService,
+                             LoggerService loggerService) {
+        this.exchangeRateService = exchangeRateService;
+        this.loggerService = loggerService;
+    }
+
+    public double convert(double amount, String currencyCode) {
+
         if (amount <= 0) {
             throw new IllegalArgumentException("Amount must be greater than zero");
         }
+
+        // получаем курс валют из внешнего сервиса
+        double rate = exchangeRateService.getRate(currencyCode);
+
         if (rate <= 0) {
             throw new IllegalArgumentException("Rate must be greater than zero");
         }
 
-        // Вычисляем и округляем до 2 знаков после запятой
         double result = amount * rate;
+
         result = Math.round(result * 100.0) / 100.0;
+
+        // если сумма большая — логируем
+        if (amount > 100000) {
+            loggerService.log("Large conversion: " + amount + " " + currencyCode);
+        }
 
         return result;
     }

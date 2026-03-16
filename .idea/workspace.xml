@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21257e64-f4e8-423a-99a8-0d067d73be01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExchangeRateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoggerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CurrencyConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExchangeRateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ExchangeRateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CurrencyConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CurrencyConverterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,23 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="CurrencyConverterTest.testRoundingToTwoDecimals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CurrencyConverterTest" />
+      <option name="METHOD_NAME" value="testRoundingToTwoDecimals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CurrencyConverterTest.testRoundingToTwoDecimals" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +75,7 @@
       <updated>1770043800474</updated>
       <workItem from="1770043801617" duration="476000" />
       <workItem from="1770044285775" duration="5099000" />
-      <workItem from="1773654829358" duration="538000" />
+      <workItem from="1773654829358" duration="2552000" />
     </task>
     <servers />
   </component>
